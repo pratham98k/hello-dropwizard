@@ -217,4 +217,19 @@
             </build>
         </profile>
     </profiles>
+ <distributionManagement>
+ <!-- Publish the versioned releases here -->
+ <repository>
+  <id>admin-nexus</id>
+  <name>admin nexus</name>
+  <url>http://172.28.28.110:8081/repository/hello-dropwizard/</url>
+ </repository>
+
+ <!-- Publish the versioned releases here -->
+ <snapshotRepository>
+  <id>admin-nexus</id>
+  <name>admin nexus</name>
+  <url>http://172.28.28.110:8081/repository/hello-dropwizard/</url>
+ </snapshotRepository>
+</distributionManagement>
 </project>
