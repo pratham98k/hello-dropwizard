@@ -23,7 +23,7 @@
         <repository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>http://172.28.28.110:8081/repository/hello-dropwizard/</url>
         </repository>
     </repositories>
 
