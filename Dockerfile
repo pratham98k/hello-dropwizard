@@ -1,4 +1,3 @@
-LABEL maintainer="prathamesh.kulkrani@publicissapient.com"
 # Pull base image.
 FROM ubuntu:latest
 RUN \
