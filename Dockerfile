@@ -6,7 +6,7 @@ apt-get update -y && \
 # Install Java
 apt-get install default-jre -y
 # Copy jar file in container
-COPY hello-dropwizard-1.0.jar /opt/hello-dropwizard-1.0.jar
+COPY target/hello-dropwizard-1.0.jar /opt/hello-dropwizard-1.0.jar
 #Copy example.yaml file in container
 COPY example.yaml /opt/example.yaml
 #expose port 8080 to access application
